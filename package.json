@@ -28,7 +28,9 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^16.8.19",
     "concurrently": "^4.1.0",
-    "json-server": "^0.15.0"
+    "json-server": "^0.15.0",
+    "typescript": "^3.5.1"
   }
 }

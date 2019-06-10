@@ -1,0 +1,13 @@
+.Input {
+    padding: 0 12px;
+    height: 50px;
+    border: 1px solid var(--grey-light);
+    color: var(--grey-dark);
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+.Input::placeholder {
+    color: var(--grey-medium);
+}

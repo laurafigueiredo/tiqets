@@ -1,3 +1,11 @@
+:root {
+  --white: #FFFFFF;
+  --grey-dark: #323C52;
+  --grey-medium: #ADB1BA;
+  --grey-light: #D6D8DC;
+  --green: #018794;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,4 +19,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }

@@ -1,0 +1,30 @@
+.SearchWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Search-input {
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+.Search-button {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .SearchWrapper {
+        flex-direction: row;
+    }
+
+    .Search-input {
+        margin-bottom: 0;
+        margin-right: 6px;
+        flex-grow: 1;
+    }
+    
+    .Search-button {
+        width: auto;
+    }    
+}
