@@ -3,7 +3,7 @@ import React from 'react';
 // Styles
 import './Button.css';
 
-// Interface
+// Typescript interfaces
 interface ButtonProps {
     type?: 'button' | 'submit';
     text: string;

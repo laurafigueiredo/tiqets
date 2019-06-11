@@ -28,3 +28,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+p, h3 {
+  margin: 0;
+}

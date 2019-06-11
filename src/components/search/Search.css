@@ -10,16 +10,21 @@
 }
 
 .Search-button {
+    margin-bottom: 16px;
     width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+.Search-card {
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 600px) {
     .SearchWrapper {
         flex-direction: row;
     }
 
     .Search-input {
-        margin-bottom: 0;
+        margin-bottom: 16px;
         margin-right: 6px;
         flex-grow: 1;
     }
